@@ -1,2 +1,2 @@
 @echo off
-start error
+start error.bat
