@@ -1,1 +1,1 @@
-x=msgbox ("OOO MINCE ", 5+16, "Blackhole")
+x=msgbox ("OOOPS ", 5+16, "Blackhole")
